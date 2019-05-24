@@ -18,7 +18,11 @@ When submitted as a comment or reply, any prediction will be six days, twelve ho
 
 In order to make predictions, the assumption that growth is proportional to the amount of upvotes at any given time was made. This yields a first order differential equation for exponential growth, which is solved as follows:
 
+![Model for exponential growth](/images/model1.png)
+
 for P represents the amount of upvotes, and dP/dt represents growth. Any submission starts with an initial upvote at time t=0. Using isolation of variables, the given proportionality constant k can be solved directly as follows:
+
+![Finding a particular solution](/images/model2.png)
 
 This function for P can then be used to solve for the amount of predicted upvotes at the requested time. Note that UNIX timestamps were are used in order to make predictions relative to when the bot was queued. Specifically, two UNIX timestamps were used: the period when the target submission was created, and the period when the command was queued. This function is modeled relative to this timeframe, since growth can only occur past the time in which the target submission exists.
 
