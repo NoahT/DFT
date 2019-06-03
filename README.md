@@ -29,3 +29,7 @@ This function for P can then be used to solve for the amount of predicted upvote
 ## Contributions
 
 Given the limited scope of this project, contributions are currently discouraged. However, if there exists any noteable issues that contradict this bot's intended functionality, please raise a [new issue](https://github.com/NoahT/postTrend-reddit/issues), which will be handled on a case-by-case basis.
+
+## License
+
+This project served as more of a learning experience than anything. As such, the source code operates under the Unilicense. More information can be found [here](https://unlicense.org/).
